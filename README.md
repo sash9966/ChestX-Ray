@@ -1,5 +1,5 @@
 # AI for Medical Diagnosis - Learning Summary Week 1 Asignment
-![Image Example](imageexample.png)
+![Image Example](imagexample.png)
 
 📊 **Data Preparation:**
    - Visualized medical image data to understand dataset characteristics.
