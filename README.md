@@ -2,7 +2,8 @@
 
 📊 **Data Preparation:**
    - Visualized medical image data to understand dataset characteristics.
-   - Implemented techniques to prevent data leakage, ensuring model integrity.
+   - Implemented techniques to prevent data leakage, ensuring model integrity
+      - Splitting train, validation, and test set into patient IDs, to avoid the model picking up features that may not be related to a disease detection: eg. healthy patient wears a necklace in both x-ray scans in train and test set → model picks up “necklace” = healthy, which is false and makes the model overconfident. 
 
 🚀 **Model Development:**
    - Addressed class imbalance for robust classifiers.
@@ -19,7 +20,3 @@
 💻 **Implementation:**
    - Applied theoretical knowledge to practical scenarios.
    - Developed skills in data preprocessing, model development, and advanced evaluation.
-
-🌟 **Next Steps:**
-   - Established a solid foundation for tackling complex challenges in AI for medical diagnosis.
-   - Ready to explore further advancements in this fascinating domain.
